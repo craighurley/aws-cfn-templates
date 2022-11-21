@@ -1,0 +1,9 @@
+templates:
+    - templates/**/*.yaml
+ignore_checks:
+    - E0000
+    - E3001
+    - E3012
+    - W2001
+    - W3011
+    - I3011

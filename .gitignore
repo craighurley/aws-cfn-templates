@@ -1,0 +1,16 @@
+.DS_Store
+.envrc
+.python-version
+.vscode/
+*.log
+/.Trash/
+/tmp/*
+/vars/*
+**/__pycache__/
+.printed-stacks/
+modd.conf
+
+# overrides
+!.gitkeep
+!vars/template.yaml
+!.pre-commit-config.yaml

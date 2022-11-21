@@ -1,0 +1,17 @@
+---
+extends: default
+rules:
+  document-start: disable
+  braces:
+    max-spaces-inside: 1
+    min-spaces-inside: 0
+  comments:
+    min-spaces-from-content: 1
+  indentation:
+    level: warning
+  line-length:
+    level: warning
+    max: 999
+  truthy: disable
+ignore: |
+    config/

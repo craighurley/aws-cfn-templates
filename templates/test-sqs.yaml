@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Test - SQS
+
+Resources:
+  Queue:
+    Type: AWS::SQS::Queue
+
+Outputs:
+  Queue:
+    Value:
+      Ref: "Queue"
